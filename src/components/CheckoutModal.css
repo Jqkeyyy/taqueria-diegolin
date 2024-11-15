@@ -1,0 +1,73 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .close-modal-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .checkout-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .checkout-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .checkout-form .form-group input,
+  .checkout-form .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .checkout-form .form-group .input-error {
+    border: 1px solid red;
+  }
+  
+  .checkout-form .form-group .error-message {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 5px;
+  }
+  
+  .submit-order-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #paypal-button-container {
+    margin-top: 20px;
+  }
+  
